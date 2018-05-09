@@ -1,0 +1,55 @@
+/* General Formatting */
+body {
+	font-family: Helvetica;
+	text-align: center;
+}
+
+/* Title */
+h1 {
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 14px;
+}
+
+/* Banners and Footer Formatting */
+
+/*Title Banner */
+.banner {
+	background-image: url("../img/the-flatiron-building.png");
+}
+
+/* Navigation */
+ul, .banner {
+	list-style: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Divider */
+.sub_banner {
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+	background-image: url("../img/the-flatiron-building.png");
+}
+
+/* Bottom bar */
+.footer {
+	text-align: left;
+	background-color: dimgray;
+	color: white;
+}
