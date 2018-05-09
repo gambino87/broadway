@@ -4,7 +4,7 @@ body {
 	text-align: center;
 }
 
-/* Title */
+	/* Title */
 h1 {
 	font-size: 70px;
 	font-weight: bold;
@@ -25,21 +25,27 @@ p {
 	font-size: 14px;
 }
 
+
+	/* Link colors */
+a:link, a:visited {
+	color: white;
+}
+
 /* Banners and Footer Formatting */
 
-/*Title Banner */
+	/*Title Banner */
 .banner {
 	background-image: url("../img/the-flatiron-building.png");
 }
 
-/* Navigation */
+	/* Navigation */
 ul, .banner {
 	list-style: none;
 	font-size: 18px;
 	font-weight: bold;
 }
 
-/* Divider */
+	/* Divider */
 .sub_banner {
 	font-size: 23px;
 	font-weight: bold;
@@ -47,7 +53,7 @@ ul, .banner {
 	background-image: url("../img/the-flatiron-building.png");
 }
 
-/* Bottom bar */
+	/* Bottom bar */
 .footer {
 	text-align: left;
 	background-color: dimgray;
